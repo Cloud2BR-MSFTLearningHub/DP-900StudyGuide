@@ -44,9 +44,6 @@ jobs:
           GIT_COMMITTER_NAME: github-actions[bot]
           GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
         run: |
-          # Ensure we're on the correct branch
-          git switch -c "$PR_BRANCH" || git switch "$PR_BRANCH"
-          
           # Stage and commit all changes (new, modified, deleted)
           git add -A
           git diff --staged --quiet || git commit -m "Update last modified date in Markdown files"
