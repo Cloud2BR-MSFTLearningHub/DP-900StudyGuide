@@ -1,28 +1,21 @@
 # Non-Relational Data on Azure: Sample Questions and Answers 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-04-06
-
-----------
-
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions.
 > They are intended to help you prepare for the [DP-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900).
 > For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification).
 
 - Describe considerations for working with non-relational data on Azure
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [What is Azure Cosmos DB for Apache Gremlin?](https://learn.microsoft.com/en-us/azure/cosmos-db/gremlin/introduction)
   
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Understanding NoSQL Database Types](#q1-understanding-nosql-database-types)
@@ -38,7 +31,8 @@ Last updated: 2026-04-06
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > Cosmos APIs:
 
 | Cosmos API        | Description                                                                 |
@@ -48,7 +42,8 @@ Last updated: 2026-04-06
 | MongoDB    | An API that provides wire protocol compatibility with MongoDB, allowing you to use existing MongoDB drivers and tools. Ideal for applications already using MongoDB. |
 | Table      | An API that provides key-value storage with a schemaless design, compatible with Azure Table Storage. Suitable for applications that need a simple, scalable, and cost-effective storage solution. |
 
-> [!TIP]
+> **Tip**
+>
 > CAP means:
 
 The CAP theorem, also known as Brewer's theorem, states that in a distributed data store, it is impossible to simultaneously provide all three of the following guarantees. In essence, a distributed system can only achieve two out of the three properties at any given time.
@@ -147,10 +142,3 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The MongoDB API is not suitable for applications already using MongoDB.** ❌: `This is incorrect because the MongoDB API provides wire protocol compatibility with MongoDB, making it suitable for applications already using MongoDB.`
 - [ ] **The Table API provides key-value storage with a schemaless design, suitable for simple, scalable, and cost-effective storage.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design, making it suitable for simple, scalable, and cost-effective storage.`
 - [ ] **The Gremlin API is based on Apache TinkerPop and is used to store and query graph data.** ✅: `This is correct because the Gremlin API is based on Apache TinkerPop and is used to store and query graph data.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1292-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

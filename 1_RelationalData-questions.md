@@ -1,21 +1,14 @@
 # Relational Data on Azure: Sample Questions and Answers 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-04-06
-
-----------
-
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions.
 > They are intended to help you prepare for the [DP-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900).
 > For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification).
 
 - Identify considerations for relational data on Azure
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Describe concepts of relational data](https://learn.microsoft.com/en-us/training/modules/describe-concepts-of-relational-data/)
@@ -24,7 +17,7 @@ Last updated: 2026-04-06
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Understanding Batch Processing Outputs](#q1-understanding-batch-processing-outputs)
@@ -53,7 +46,8 @@ Last updated: 2026-04-06
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > Types of functions in SQL:
 
 | Type of Function       | Description                                                                 | Examples                          |
@@ -67,7 +61,8 @@ Last updated: 2026-04-06
 | Window Functions       | Perform calculations across a set of table rows that are related to the current row. | `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `NTILE` |
 | JSON Functions         | Perform operations on JSON data and return JSON or scalar values.           | `JSON_VALUE`, `JSON_QUERY`, `JSON_MODIFY` |
 
-> [!TIP]
+> **Tip**
+>
 > Database management systems (DBMS) concepts:
 
 | Concept            | Explanation                                                                 |
@@ -77,7 +72,8 @@ Last updated: 2026-04-06
 | Foreign Key        | A field (or collection of fields) in one table that uniquely identifies a row of another table, creating a relationship between the two tables. It ensures referential integrity within the database. |
 | Stored Procedure   | A precompiled collection of one or more SQL statements stored under a name and processed as a unit, which can be executed with parameters to perform specific tasks within the database. |
 
-> [!TIP]
+> **Tip**
+>
 > ACID properties:
 
 | Term        | Description                                                                 |
@@ -87,7 +83,8 @@ Last updated: 2026-04-06
 | Durability  | Ensures that `once a transaction is committed, it remains permanent`, even in the event of a system failure. |
 | Consistency | Ensures that a transaction brings the `database from one valid state to another`, maintaining database integrity. |
 
-> [!TIP]
+> **Tip**
+>
 > SQL Language types:
 
 | SQL Language Type            | Description                                                                 | Examples                          |
@@ -318,10 +315,3 @@ A stored procedure:
 3. Normalizing a database results in queries that require more joins.
    - [ ] Yes ✅: `This is correct because normalizing a database often involves splitting data into multiple tables, which can result in queries that require more joins to retrieve related data.`
    - [ ] No ❌: `This is incorrect because normalizing a database often results in queries that require more joins.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1292-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->

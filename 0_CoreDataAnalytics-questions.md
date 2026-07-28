@@ -1,14 +1,7 @@
 # Core Data Concepts and Analytics Workload on Azure: Sample Questions and Answers 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2026-04-06
-
-----------
-
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions.
 > They are intended to help you prepare for the [DP-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900).
 > For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification).
@@ -16,7 +9,7 @@ Last updated: 2026-04-06
 - Describe core data concepts
 - Describe an analytics workload on Azure
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Describe core concepts of data modeling](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/3-data-modeling)
@@ -31,7 +24,7 @@ Last updated: 2026-04-06
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Understanding Descriptive Analytics](#q1-understanding-descriptive-analytics)
@@ -91,7 +84,8 @@ Last updated: 2026-04-06
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > Data Science and Analytics roles: 
 
 | Role            | Description                                                                 |
@@ -101,7 +95,8 @@ Last updated: 2026-04-06
 | Data Scientist  | Uses advanced analytical techniques, machine learning, and statistical methods to extract insights from data. Develops predictive models and algorithms to solve complex business problems. |
 
 
-> [!TIP]
+> **Tip**
+>
 > Data structures examples:
 
 | Data Structure     | Examples                          |
@@ -110,7 +105,8 @@ Last updated: 2026-04-06
 | Semi-Structured    | JSON, XML, HTML                   |
 | Structured         | SQL Databases, Spreadsheets       |
 
-> [!TIP]
+> **Tip**
+>
 >  Concepts:
 
 | Concept          | Description                                                                 |
@@ -120,7 +116,8 @@ Last updated: 2026-04-06
 | Scalar Function  | A function that returns a single value, typically used to perform calculations or operations on data. |
 | Table            | A database object that stores data in rows and columns, forming the basic structure of a relational database. |
 
-> [!TIP]
+> **Tip**
+>
 > Service model: 
 
 | Service Model                | Abbreviation | Description                                                                 | Examples                          |
@@ -132,7 +129,8 @@ Last updated: 2026-04-06
 | Backend as a Service         | BaaS         | Provides backend cloud storage and computing services for mobile and web applications. | Azure Mobile Apps                 |
 | Database as a Service        | DBaaS        | Provides database management and maintenance services over the cloud. | Azure SQL Database                |
 
-> [!TIP]
+> **Tip**
+>
 > Types and descriptions:
 
 | Type of Analytics | Description |
@@ -144,7 +142,8 @@ Last updated: 2026-04-06
 | Real-time         | Analyzes data as it is generated to provide `immediate insights`. |
 | Cognitive         | Uses AI and machine learning to `simulate human` thought processes in data analysis. |
 
-> [!TIP]
+> **Tip**
+>
 > Types of Storage:
 
 | Storage Option            | Description                                                                 |
@@ -160,7 +159,8 @@ Last updated: 2026-04-06
 | Azure File Sync           | Extends on-premises file servers to Azure, providing centralized file share management and cloud tiering. |
 | Azure Data Box            | A physical device that helps transfer large amounts of data to Azure quickly and securely. Suitable for offline data transfer. |
 
-> [!TIP]
+> **Tip**
+>
 > Redundancy options:
 
 | Storage Option                        | Abbreviation | Description                                                                 |
@@ -170,7 +170,8 @@ Last updated: 2026-04-06
 | Locally-Redundant Storage             | LRS          | Replicates data synchronously within a single data center in the primary region, offering a lower-cost option with moderate availability and durability. |
 | Geo-Redundant Storage                 | GRS          | Replicates data to a secondary region asynchronously, providing protection against regional outages but without read access to the secondary region unless a failover occurs. |
 
-> [!TIP]
+> **Tip**
+>
 > Data Schema and Terms:
 
 | Term                | Description                                                                 |
@@ -182,7 +183,8 @@ Last updated: 2026-04-06
 | Dimension           | A table in a database schema that contains descriptive attributes related to the facts, used for filtering and grouping data. |
 | Bridge              | A table used to handle many-to-many relationships between fact and dimension tables in a database schema. |
 
-> [!TIP]
+> **Tip**
+>
 > Nested structures:
 
 ```json
@@ -227,14 +229,16 @@ Last updated: 2026-04-06
 | Nested Object   | An object that is contained within another object.                          | `"address": { "line_1": "123 Main St", "line_2": "Suite 400", "city": "Los Angeles", "state": "CA", "ZIP_code": "90001" }` |
 | Nested Array    | An array that is contained within another array or object.                  | `"contacts": [ { "type": "email", "value": "jane.doe@example.com" }, { "type": "phone", "value": "555-123-4567" } ]` ➡️ [ ] |
 
-> [!TIP]
+> **Tip**
+>
 > Synapse SQL architecture components, from [official Microsoft documentation](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture#synapse-sql-architecture-components)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a0cf4ab0-3cb9-439d-be45-8525567240e4" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 4px; padding: 4px; width: 500px; height: auto;"/>
 </div>
 
-> [!TIP]
+> **Tip**
+>
 > Visualization type:
 
 | Visualization Type | Description |
@@ -268,7 +272,8 @@ Last updated: 2026-04-06
 | Bullet Chart | Displays performance against a target, often used for KPIs. |
 | Sparkline | A small, simple chart that provides a compact visual representation of data trends. |
 
-> [!TIP]
+> **Tip**
+>
 > Relational and Non Relational critieria:
 
 Relational Databases:
@@ -297,7 +302,8 @@ Non-Relational Databases:
 | **Consistency**                 | Strong consistency                                             | Eventual consistency (in some cases)                              |
 | **Examples**                    | MySQL, PostgreSQL, Oracle, SQL Server                          | MongoDB, Cassandra, Redis, Couchbase, Neo4j                       |
 
-> [!TIP]
+> **Tip**
+>
 > Power Bi Services:
 
 | Service                | Purpose                                                                 |
@@ -306,7 +312,8 @@ Non-Relational Databases:
 | Power BI Phone App     | A `mobile application for iOS and Android devices` that allows users to view and interact with Power BI reports and dashboards on the go. |
 | Power BI Service       | An online service (SaaS) that allows users to `consume, share, and collaborate` on Power BI reports and dashboards. It provides a cloud-based environment for hosting and managing Power BI content. |
 
-> [!TIP]
+> **Tip**
+>
 >  Data tools and prpose:
 
 | Tool                          | Purpose                                                                 |
@@ -317,7 +324,8 @@ Non-Relational Databases:
 | Azure PowerShell              | An extension of Windows PowerShell that `allows users to manage Azure resources directly from the command line using cmdlets`. It enables the automation of tasks such as creating and managing virtual machines, storage accounts, and other Azure services. |
 | Microsoft SQL Server Data Tools (SSDT) | A modern development tool for `building SQL Server relational databases`, databases in the cloud with Azure SQL Database, or even large-scale data warehouses using Analysis Services (AS), Integration Services (IS), and Reporting Services (RS). SSDT provides project templates for database design as well as tools for debugging T-SQL code. |
 
-> [!TIP]
+> **Tip**
+>
 > Types of processing:
 
 | Type of Processing               | Description                                                                 |
@@ -922,10 +930,3 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 3. Elastic pools can be used to manage and scale multiple databases with varying and unpredictable usage demands.
    - [ ] Yes ✅: `This is correct because elastic pools are designed to manage and scale multiple databases with varying and unpredictable usage demands.`
    - [ ] No ❌: `This is incorrect because elastic pools are intended for managing and scaling databases with varying usage demands.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1292-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-04-06</p>
-</div>
-<!-- END BADGE -->
