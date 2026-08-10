@@ -21,8 +21,8 @@
 >
 > Check out:
 >
-> - [Certification poster v2026](docs/Certification-Poster_en-us-2026.pdf)
-> - [Certification poster v2025](docs/Certification-Poster-en-us-2025.pdf)
+> - [Certification poster v2026](Certification-Poster_en-us-2026.pdf)
+> - [Certification poster v2025](Certification-Poster-en-us-2025.pdf)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/5710e198-a791-4c2a-818d-1e62beb27d46" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px; width: 200px;"/>
